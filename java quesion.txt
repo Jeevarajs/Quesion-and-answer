@@ -1,0 +1,69 @@
+Answer all the Questions
+
+1.Explain the main method in Java?
+	A main method () is starting point for JVM to start execution of a java program without the main method () JVM will not execute.
+	Syntax: public static void main (String args[]) 
+
+2.What are the different control flow statement available in Java?
+               -Decision making statement
+               -Looping Statement
+               -Branching Statement
+Decision Making statement:
+	Statement when we have to decide which block of the code will be executed.
+               -if-statement
+               -else -statement
+               -switch statement
+               -nested if else-statement	
+Looping statement:
+	We are making a decision and execution the block of code multiple time and until the condition is true.
+               -For loop
+               -While loop
+               -Do while loop
+               -For each loop
+Branching Statement:
+               -Break statement
+               -Continue statement
+               -Return statement
+
+3. different between break and continue statements?
+
+1)Break									2)Continue
+-The break statement is used to terminated the loop immediately.	-The continue statement is used to skip the current iteration of the loop.
+-We can use a break with the switch statement.	 	                -We cannot use a continue with a switch statement.
+-The break statement terminates the whole loop early.		         -The continue statement bring the next iteration early.
+-It stops the execution of the loop.				         -It does not stop the execution of the loop.
+
+
+4.What is an array? How will you declare an array in Java?
+	Array is used to store multiple value of the same data type in one variable
+You can also see if as in one variable you can also see if as a collection of values. We use parantheses {} to declare an array for following ways
+               -Literals 
+               -New keyword
+
+5.When will you get an Array Index Out of Bounds Exception?
+	The Array index Out of Bounds Exception is thrown if a program tries to access an array index that is grater, negative or equal to the length of the array. The Array index Out of Bounds Exception is run time exception. Java compiler does not check for this error during compilation.
+
+6.Define the syntax to create a syntax of object of the class. What is the naming conventions followed by method in java give a example? 
+	When we create an instance of the class by using the new keyword, The new keyword is also used to create an array. The syntax for creating an object is: ClassName object = new ClassName(); java follows camel-case syntax for naming the class,  interface, method and variable. If the word combined with two words, the second word will start uppercase letter always such as action Performed(), firstName, ActionEvent, Actionslistener, etc.
+
+7.What is Variable? How will you declare a variable in java?
+	Variable in Java is a data container that saves the data values during java program execution. Every variable is assigned a data type and quantity of values it can hold. Variable is a memory location name of the data.
+int = 20, speed=30;
+
+8.What is string in Java? Is it a data type?
+	String is a class and it is Non primitive Data Type.A String is generally considered as a data type and is often implemented as an array data structures of bytes(or words) that stores a sequence of elements,typically characters,using some character encoding.
+
+9.What are the different ways to create the string object in java?
+There are Two Ways to create the string object;
+Using String literal:Java string literal is created by using double quotes.
+String s="hello";
+Using New keyword:Java String is created by using a keyword "new"
+String s= new string("hello ");
+
+10. What is the Difference between .Equals and ==?
+.Equals	
+*Equals is a method of object class.
+*Method should be used for content comparison.
+==
+*Should be used during reference comparison.
+*Check if both references points to same location or not
